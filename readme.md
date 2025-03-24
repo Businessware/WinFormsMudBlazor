@@ -56,3 +56,8 @@ You can import the WinFormsMudBlazor project template (`WinFormsMudBlazor.zip` f
 
 > ⚠️ Note: Templates added this way may be overwritten during Visual Studio updates.
 
+---
+
+# License
+
+Totally gratis - no license, use as you like!
