@@ -20,14 +20,15 @@ You can import the WinFormsMudBlazor project template (`WinFormsMudBlazor.zip` f
 
 1. **Locate the template**
 
-   If you have cloned this repository, or downloaded it as a `.zip` file, and extracted the file `WinFormsMudBlazor.zip`:
-   
-   **- OR -**
-   
-   If you have built the source and exported the project as a template, you will find the created `WinFormsMudBlazor.zip` file here:
+   If you have cloned this repository, or downloaded it as a `.zip` file, built the source and exported the project as a template, you will find the created `WinFormsMudBlazor.zip` file here:
    ```
    %USERPROFILE%\Documents\Visual Studio 2022\My Exported Templates
    ```
+   **- OR -**
+   
+   Find it here in `Releases`:
+   
+   <a href="https://github.com/Businessware/WinFormsMudBlazor/releases/tag/v1.0" target="_blank">WinFormsMudBlazor v1.0</a>
 
 2. **Copy the `WinFormsMudBlazor.zip` file**.
 
