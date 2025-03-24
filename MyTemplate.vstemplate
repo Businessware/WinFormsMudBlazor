@@ -1,0 +1,51 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WinFormsMudBlazor</Name>
+    <Description>C# project that embeds a minimal .NET 9.x Blazor application using MudBlazor in a C# Winform.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WinFormsMudBlazor</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.ico</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="WinFormsMudBlazor.csproj" File="WinFormsMudBlazor.csproj" ReplaceParameters="true">
+      <Folder Name="wwwroot" TargetFolderName="wwwroot">
+        <Folder Name="css" TargetFolderName="css">
+          <ProjectItem ReplaceParameters="true" TargetFileName="app.css">app.css</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="favicon.png">favicon.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      </Folder>
+      <Folder Name="Components" TargetFolderName="Components">
+        <Folder Name="Layout" TargetFolderName="Layout">
+          <ProjectItem ReplaceParameters="false" TargetFileName="MainLayout.razor">MainLayout.razor</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="NavMenu.razor">NavMenu.razor</ProjectItem>
+        </Folder>
+        <Folder Name="Pages" TargetFolderName="Pages">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Counter.razor">Counter.razor</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Error.razor">Error.razor</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Home.razor">Home.razor</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Weather.razor">Weather.razor</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="DarkModeToggleButton.razor">DarkModeToggleButton.razor</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="FullScreenToggleButton.razor">FullScreenToggleButton.razor</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="_Imports.razor">_Imports.razor</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainForm.cs">MainForm.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainForm.Designer.cs">MainForm.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainForm.resx">MainForm.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Routes.razor">Routes.razor</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WinFormInterop.cs">WinFormInterop.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
